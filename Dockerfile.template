@@ -7,7 +7,7 @@ ENV INITSYSTEM on
 # For caching until requirements.txt changes
 ADD ./requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
-
+RUN git https://github.com/adafruit/Adafruit_Python_DHT.git && cd Adafruit_Python_DHT && python setup.py install --force-pi2
 # Copy source code into a container directory
 COPY /app /usr/src/app
 
