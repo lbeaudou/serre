@@ -3,3 +3,4 @@ picamera < 1.13
 paho-mqtt
 #adafruit_python_dht 
 RPi.GPIO
+smbus
