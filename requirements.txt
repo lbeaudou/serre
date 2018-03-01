@@ -1,5 +1,5 @@
 #put all python dependencies in here.
 picamera < 1.13
 paho-mqtt
-
+adafruit_python_dht --force-pi2
 RPi.GPIO
